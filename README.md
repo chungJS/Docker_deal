@@ -142,6 +142,10 @@ options.add_argument(f'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Appl
 
 # 실행
 
+![캡처](https://user-images.githubusercontent.com/50360713/218379345-348b0742-2ab7-44fa-8670-9637a1a95a6a.PNG)
+
+먼저 docker build 명령어를 이용해 이미지를 만들어 준다.
+
 ![캡처](https://user-images.githubusercontent.com/50360713/218376394-80291202-0ef5-44bb-b2f2-3b4c04b8e9fc.PNG)
 
-실행하면 위와 같이 코드가 실행한 후 도커가 꺼진다.
+다음으로 이미지를 이용해 도커 컨테이너를 만들면 바로 프로그램이 실행되면서 위와같이 작동된 후 컨테이너가 꺼진다.

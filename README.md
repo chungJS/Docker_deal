@@ -132,7 +132,7 @@ options.add_argument("--no-sandbox")
 options.add_argument(f'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36')
 ```
 
-이 부분을 새로 추가하였는데 gui가 없는 리눅스 환경에서 구동할 수 있게 설정해주기 위해 headless와 disable-gpu를 추가하였고 headless 옵션 때문에 robot.txt가 뜨는 경우를 방지하기 위해 user-agent를 추가해주었다.
+이 부분을 새로 추가하였는데 GUI가 없는 리눅스 환경에서 구동할 수 있게 설정해주기 위해 headless와 disable-gpu를 추가하였고 headless 옵션 때문에 robot.txt가 뜨는 경우를 방지하기 위해 user-agent를 추가해주었다.
 
 그리고 PC환경에서의 창을 크롤링 하기 위해 원도우 사이즈를 고정시켜서 미연의 오류를 방지한다
 

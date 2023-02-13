@@ -142,6 +142,6 @@ options.add_argument(f'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Appl
 
 # 실행
 
-![캡처.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/21bd5f82-4b4d-47d4-a3cf-79ce79d9456c/%EC%BA%A1%EC%B2%98.png)
+![캡처](https://user-images.githubusercontent.com/50360713/218376394-80291202-0ef5-44bb-b2f2-3b4c04b8e9fc.PNG)
 
 실행하면 위와 같이 코드가 실행한 후 도커가 꺼진다.

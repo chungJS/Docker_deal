@@ -15,7 +15,8 @@ RUN apt install curl wget unzip -y
 WORKDIR /dir
 
 #만든 파일 불러오기
-ADD https://raw.githubusercontent.com/dpan0883/best_marketprice/main/main.py .
+#ADD https://raw.githubusercontent.com/dpan0883/best_marketprice/main/main.py .
+COPY main.py .
 
 #크롬 설치
 RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb

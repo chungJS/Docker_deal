@@ -1,8 +1,6 @@
-# 특가 시세 확인
+# Quasar Zone Price Finder
 
-도커를 실행 시 사용자에게서 원하는 키워드를 입력 받은 후 퀘이사존 특가 페이지를 셀리니움으로 크롤링해서 가장 낮게 나오는 가격과 링크를 출력해준다.
-
-이 프로그램은 전자제품같은것을 할인 했을 때 가장 좋았던 특가는 얼마 였을지를 알아보기 위해서 만들어 졌다.
+Quasar Zone Price Finder is a program that uses Selenium to find the best prices for user-inserted keywords on the [Quasar Zone community's](https://quasarzone.com/) special deals page.
 
 ---
 
@@ -55,7 +53,7 @@ from selenium.webdriver.chrome.options import Options
 import re
 
 def cr_hotdeal(keyword) :
-    #가장 먼저 이 함수로 필요한 정보를 내보낼 리스트를 먼저 선언 한후 
+    #가장 먼저 이 함수로 필요한 정보를 내보낼 리스트를 먼저 선언 한후
     results = []
 
     #입력받은 키워드를 붙여서 크롤링 할 주소를 만들어 줍니다.

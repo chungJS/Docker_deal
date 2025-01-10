@@ -2,13 +2,9 @@
 
 Quasar Zone Price Finder is a program that uses Selenium to find the best prices for user-inserted keywords on the [Quasar Zone community's](https://quasarzone.com/) special deals page.
 
-<!-- vim-markdown-toc GFM -->
-
 - [Features](#Features)
 - [Installation](#Installation)
 - [Usage](#Usage)
-
-<!-- vim-markdown-toc -->
 
 ## Features
 
